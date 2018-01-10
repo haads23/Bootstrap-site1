@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1 , shrink-to-fit=no">
+
+    <title>BootStrap Template</title>
+
+
+    <!--CSS Stylesheet for bootsrap content from the web-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!--    Google Fonts-->
+
+    <link href="https://fonts.googleapis.com/css?family=Marko+One|Montserrat+Alternates" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/main.css">
+
+</head>
+
+<body>
+
+    <!-- Basic Nav container-->
+
+    <nav class="navbar sticky-top rounded navbar-expand-sm navbar-light" style="background-color: #26FCDA;">
+
+        <!-- Navbar Header-->
+        <div class="navbar-header">
+
+            <!--Button: hamburger style collapsed menu -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsemenu" aria-controls="collapsemenu" aria-expanded="false" aria-label="Toggle navigation"> 
+              
+              <span class="navbar-toggler-icon"> </span>
+          
+          </button>
+
+        </div>
+
+        <!-- Collaspe Menu Bar Content-->
+
+        <div class="collapse navbar-collapse" id="collapsemenu">
+
+            <ul class="navbar-nav mr-auto">
+
+                <a class="navbar-brand" href="index.html">digitalEarth</a>
+                <li class="nav-item active"><a class="nav-link" href="index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="help.html">LETS SAVE THE CLIMATE </a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+
+
+            </ul>
+
+            <!-- SEARCH-->
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SEARCH</button>
+            </form>
+        </div>
+
+    </nav>
+
+    <main>
+
+
+        <h2 class="container text-center">Contact Us</h2>
+
+        <!-- FORM-->
+
+        <div class="row">
+
+            <form>
+                <div class="container" >
+    
+
+                    <div class="form-group row" >
+                        <label for="inputFisrtName" class="col-sm-2 col-form-label">First Name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputFisrtName" placeholder="First Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="inputLastName" class="col-sm-2 col-form-label">Last Name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email Address:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputEmail3" placeholder="Email Address">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="inputPhone" class="col-sm-2 col-form-label">Phone: </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputPhone" placeholder="(516)-000-0000">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Questions or Concerns">Questions or Concerns:</label>
+                        <textarea class="form-control" id="Questions or Concerns" rows="5"></textarea>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Sumbit</button>
+                        </div>
+                    </div>
+
+                    </div>
+                </form>
+
+            <div class="map">
+
+                <a href="https://www.google.com/maps/dir//Vancouver,/" target="_blank"><img src="https://maps.googleapis.com/maps/api/staticmap?center=Vancouver,&zoom=13&scale=1&size=600x300&maptype=roadmap&key=AIzaSyCGppwu_W0FemWa8VW8WGuUpLXoV9J_r7I&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7CVancouver," alt="Google Map of Vancouver,"></a>
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <!--FOOTER BAR -->
+
+    <footer class="footer">
+
+        <div class="container text-center">
+            <small style="color:black" class="copyright">&copy;<time datetime="2017"> 2017 </time> digitalEarth. All Rights Reserved.</small>
+            <a href="https://en-gb.facebook.com/login/" target="_blank"><i class="fa fa-facebook"></i><img src="IMG/facebook.jpg.png"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"><img src="IMG/Twitter_UI-03.png"></i></a>
+            <a href="https://www.linkedin.com/uas/login" target="_blank"><i class="fa fa-linkedin"><img src="IMG/Linkin.png"></i></a>
+            <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome" class="fa fa-snapchat-ghost" target="_blank"><img src="IMG/snapchat.png"></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"><img src="IMG/Instagram.png"></i></a>
+
+        </div>
+
+
+    </footer>
+
+
+    <!--3 JavaScript link: jquery, popper, and bootstrap. We need JS b/c the action for the button is within JS. -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

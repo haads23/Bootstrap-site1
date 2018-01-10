@@ -1,0 +1,134 @@
+/** Main CSS File **/
+
+
+
+h{
+    font-family: 'Marko One', 'Times New Roman', 'Georgia', serif;
+}
+
+body, link{
+    font-family: 'Montserrat Alternates','Helvetica', 'Verdana', sans-serif;
+    background-color: powderblue;
+}
+
+
+/******************  Jumbotron For Home Page ***************************/
+
+.jumbotron {
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+    background-color:palegreen;
+    background-position: right;
+
+}
+
+.display-4 text-center {
+    text-decoration-color: white;
+}
+
+/********************* Cards for both Home and Help Page ******************************/
+
+.card-block{
+ background-color: palegreen;
+ border-color: rebeccapurple;
+}
+.btn.btn-primary{
+ background-color: rebeccapurple;
+ color: #E9D9FF;
+}
+.cardone{
+    margin-bottom: 35px;
+}
+
+.cardtwo{
+    margin-bottom: 40px;
+}
+
+
+
+/******************** Form for Contact Page ********************************************/
+input[type=text], textarea,select, {
+    width: 50%;
+    padding: 12px 20px 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container{
+    margin: 25px;
+}
+/***********Images in Index and Help***************/
+#blockchain{
+    width:45%;
+}
+#Bitcoin{
+    width:20%;
+}
+#mining{
+    width: 100%;
+}
+/***********Map**********************/
+
+.map{
+  padding-left: 150px;
+
+}
+
+
+/**************** Footer For All pages  *********************************/
+
+.footer {
+    background: #26FCDA;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+}
+
+.footer a:first-child {
+    border-left: 1px solid #70726F;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
